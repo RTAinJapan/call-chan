@@ -2,13 +2,13 @@
 
 Discord webhook で対象のメンション宛に通知を飛ばすだけのWebアプリです
 
-This 
+This application is made with remix.
 
 ## Development
 
 Run the dev server:
 
-```shellscript
+```sh
 npm run dev
 ```
 
