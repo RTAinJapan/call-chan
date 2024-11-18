@@ -20,7 +20,6 @@ COPY --from=build /remix/build /app/build
 COPY --from=build /remix/node_modules /app/node_modules
 COPY --from=build /remix/package.json /app/package.json
 COPY ./public /app/public
-COPY ./.env /app/.env
 
 WORKDIR /app
 
