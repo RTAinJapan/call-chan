@@ -1,0 +1,13 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: app
+    ports:
+      - 13000:3000
+    environment:
+      - DISCORD_USERNAME=受付PC
+      - DISCORD_WEBHOOK=https://discord.com/api/webhooks/669136267790909480/JckNafw2-d_RPfhNAYkc5rIc1wqkcOhLSdP3sn9miWTFLX0vZ7EBPyRxTgJvTbkhE87X
+      - DISCORD_MENTION=<@&794200015416983582>
